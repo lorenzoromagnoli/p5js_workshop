@@ -119,23 +119,3 @@ All'interno della funzione di setup la prima istruzione che vediamo è `createCa
 Dentro la funzione `void draw()` vediamo invece l'istruzione `background(153)`
 
 Risultato dell sketch è che vediamo un rettangolo grigio dentro al browser.
-
-## iniziamo a disegnare
-
-
-- 1c_ Iniziamo a disegnare
-  - Le primitive base (costruiamo il primo personaggio)
-  - le variabili
-- 1d_ Animiamo lo sketch
-  - setup() e draw()
-  - il mouse
-  - le funzioni
-  - gli eventi della tastiera
-- 1e_ dinamica di gioco
-  - collision detection
-  - i punteggi
-- 1f_ moltiplichiamo i nostri personaggi
-  - Gli oggetti
-- **assignment:**
-  - personalizza il gioco e cambia la dinamica
-  - prepara delle sprite per il tuo personaggio (lo useremo nella prossima lezione)
