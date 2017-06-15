@@ -99,3 +99,14 @@ function draw() {
 
 ```
 ![](https://raw.githubusercontent.com/lorenzoromagnoli/p5js_workshop/master/giorno1/tutorialIMG/primitiveGrafiche.png)
+
+## matrici di trasformazione push() pop();
+oltre alle primitive grafiche nel codice sopra abbiamo anche usato le funzioni `pop()`, `push()`, e `translate(x,y)`. Queste ci permettono di cambiare il sistema di coordinate. Quindi ogni cosa disegnata in coordinata (0,0) all'interno una volta chiamata la funziona push() verrà disegnata all'origine del nuovo sistema di coordinate. Nel nostro caso la funzione translate trasla il sistema di coordinate in (width/2-60,height/2-60).
+```
+push();
+stroke(0);
+translate(width/2-60,height/2-60);
+fill(255,100,30);
+triangle(0, 0, 0, 60, 60, 0);
+pop();
+```
