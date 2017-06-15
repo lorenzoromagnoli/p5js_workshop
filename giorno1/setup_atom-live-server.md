@@ -4,11 +4,11 @@
 
 ## 2. apri il pannelo preferenze
 
-##3. selezione "install"
+## 3. selezione "install"
 
 ![](https://raw.githubusercontent.com/lorenzoromagnoli/p5js_workshop/master/giorno1/tutorialIMG/install_package.png)
 
-##4. cerca atom live server
+## 4. cerca atom live server
 
 ![](https://raw.githubusercontent.com/lorenzoromagnoli/p5js_workshop/master/giorno1/tutorialIMG/install_live_server.png)
 
