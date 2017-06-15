@@ -6,11 +6,11 @@
 
 ##3. selezione "install"
 
-![](./giorno1/tutorialIMG/install_package.png)
+![](https://raw.githubusercontent.com/lorenzoromagnoli/p5js_workshop/master/giorno1/tutorialIMG/install_package.png)
 
 ##4. cerca atom live server
 
-![](./giorno1/tutorialIMG/install_live_server.png)
+![](https://raw.githubusercontent.com/lorenzoromagnoli/p5js_workshop/master/giorno1/tutorialIMG/install_live_server.png)
 
 ## 5. installa il pacchetto
 
@@ -18,10 +18,10 @@
 
 ## 7. aggiungere all'albero la cartella di progetto
 
-![](./giorno1/tutorialIMG/add_project_folder.png)
+![](https://raw.githubusercontent.com/lorenzoromagnoli/p5js_workshop/master/giorno1/tutorialIMG/add_project_folder.png)
 
 ## 8. avviare il live server
 
-![](./giorno1/tutorialIMG/start_server.png)
+![](https://raw.githubusercontent.com/lorenzoromagnoli/p5js_workshop/master/giorno1/tutorialIMG/start_server.png)
 
 ## 9. aprire il browser e navigare a [http://localhost:3000](http://localhost:3000)

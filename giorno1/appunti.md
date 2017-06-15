@@ -1,3 +1,4 @@
+# Appunti giorno 1
 ## 1a_Cosa è p5.js?
 ### Il browser
 Quello che usi per andare su facebook. Nel dubbio usa [Chrome](https://www.google.com/chrome/browser/desktop/index.html?brand=CHBD&gclid=CjwKCAjw4IjKBRBrEiwAvnqkbZ6jCm1Ov575lIe20Uq7E7g-q94FqNN6DEiEOGVVnGcqu9GBxGRzDxoCIp8QAvD_BwE)
@@ -39,7 +40,7 @@ Una volta che pubblicheremo il codice online sarà il server "remoto" a fornire 
 Se avete già apache, ngnix o altro, benissimo!!! spostate la cartella del progetto dentro alla cartella del webserver
 
 Per chi non vuole diventare uno sviluppatore professionista ed è interessato solo a giocare con p5 consiglio di scaricare [Atom](https://atom.io/) e munirsi del plugin [Atom Live Server](https://atom.io/packages/atom-live-server)
-puoi seguire gli [steps di configurazione](setup_atom-live-server).
+puoi seguire gli [steps di configurazione](https://lorenzoromagnoli.github.io/p5js_workshop/giorno1/setup_atom-live-server.html).
 
 ## Il nostro primo progetto
 - Apri atom ed aggiungi all'albero l'intera cartella copiata da "p5js_workshop/giorno1/empty-example"
