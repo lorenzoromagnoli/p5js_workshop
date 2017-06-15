@@ -1,5 +1,6 @@
-# Appunti giorno 1
-## Cosa è p5.js?
+# Giorno 1 - Parte 1 - setup a p5 project
+## glossario
+
 ### Il browser
 Quello che usi per andare su facebook. Nel dubbio usa [Chrome](https://www.google.com/chrome/browser/desktop/index.html?brand=CHBD&gclid=CjwKCAjw4IjKBRBrEiwAvnqkbZ6jCm1Ov575lIe20Uq7E7g-q94FqNN6DEiEOGVVnGcqu9GBxGRzDxoCIp8QAvD_BwE)
 

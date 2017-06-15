@@ -27,4 +27,4 @@
     - personalizza il gioco e cambia la dinamica
     - prepara delle sprite per il tuo personaggio (lo useremo nella prossima lezione)
 
-[**vai agli appunti del giorno 1**](https://lorenzoromagnoli.github.io/p5js_workshop/giorno1/appunti.html)
+[**vai agli appunti del giorno 1**](https://lorenzoromagnoli.github.io/p5js_workshop/giorno1/parte1-setup.html)
