@@ -23,7 +23,8 @@ function drawTarget(){
   ellipse(targetPositionX,targetPositionY, 20,20);
 }
 ```
-## Verifichiamo che il nostro personaggio incontri l'oggetto con una funzione che misura la distanza tra il personaggioe e il target. Nel caso la distanza è minore di 50 aggiorniamo la posizione del target.
+## Collisioni
+ Verifichiamo che il nostro personaggio incontri l'oggetto con una funzione che misura la distanza tra il personaggioe e il target. Nel caso la distanza è minore di 50 aggiorniamo la posizione del target.
 
 ```javascript
 function checkTarget(){
@@ -121,4 +122,4 @@ function keyPressed() {
 - [parte 4 - funzioni](https://lorenzoromagnoli.github.io/p5js_workshop/giorno1/parte4-funzioni.html)
 - [parte 5 - interazioni con tastiera](https://lorenzoromagnoli.github.io/p5js_workshop/giorno1/parte5-interazioni-con-tastiera.html)
 - [parte 6 - collision detection](https://lorenzoromagnoli.github.io/p5js_workshop/giorno1/parte6-collision-detection.html)
-- [parte 7 - punteggio](punteggio)
+- [parte 7 - punteggio](https://lorenzoromagnoli.github.io/p5js_workshop/giorno1/parte7_punteggio.html)
