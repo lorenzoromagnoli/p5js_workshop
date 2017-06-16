@@ -5,7 +5,7 @@
 Quello che usi per andare su facebook. Nel dubbio usa [Chrome](https://www.google.com/chrome/browser/desktop/index.html?brand=CHBD&gclid=CjwKCAjw4IjKBRBrEiwAvnqkbZ6jCm1Ov575lIe20Uq7E7g-q94FqNN6DEiEOGVVnGcqu9GBxGRzDxoCIp8QAvD_BwE)
 
 #### HTML CSS Javascript
-**Con l'html ci fai le pagine web, con CSS le rendi carine e con javascript le rendi dinamiche.
+** Con l'html ci fai le pagine web, con CSS le rendi carine e con javascript le rendi dinamiche.
 **
 
 ... se vuoi capirne dipiù dai un'occhiata [quì](https://www.youtube.com/watch?v=URSH0QpxKo8&t=12s)
@@ -30,7 +30,9 @@ fatti un giro sull'[editor online](https://alpha.editor.p5js.org/)
 Scarica la libreria [qui](https://p5js.org/download/) e aggiungila al tuo progetto come faresti con jquery
 
 - **opzione 3:**
-Duplica la cartella empty-example e setta un webserver locale
+Duplica la cartella '_empty-example' e fai partire un webserver locale
+
+  !!! noi nel corso useremo sempre questa modalità quì.
 
 #### Il webserver
 > Il server serve i file al browser
@@ -118,4 +120,4 @@ All'interno della funzione di setup la prima istruzione che vediamo è `createCa
 
 Dentro la funzione `void draw()` vediamo invece l'istruzione `background(153)`
 
-Risultato dell sketch è che vediamo un rettangolo grigio dentro al browser.
+Se hai avviato un server locale e navighi nella cartella del progetto, dovresti vedere un rettangolo grigio dentro la finestra del browser. Quello è il tuo canvas pronto per essere disegnato.

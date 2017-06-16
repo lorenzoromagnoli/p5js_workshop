@@ -1,4 +1,4 @@
-# Giorno 1 - Parte 1 - primitive grafiche
+# Giorno 1 - Parte 2 - primitive grafiche
 
 ## il sistema di coordinate
 Prima di tutto dobbiamo fare due parole su come funziona il sistema di coordinate dentro il canvas (e in generale dentro quasi tutti gli schermi)
