@@ -48,7 +48,7 @@ rect(30, 20, 55, 55);
 
 ## le proprietà grafiche
 #### [il colore di riempimento](https://p5js.org/reference/#/p5/fill) fill(r,g,b), nofill();
-```
+```javascript
 fill(200,200,200);
 ```
 > Parameters
@@ -59,13 +59,13 @@ fill(200,200,200);
 
 #### [Il contorno](https://p5js.org/reference/#/p5/stroke) stroke(r,g,b), nostroke(), strokeWeight(x);
 
-```
+```javascript
 stroke(255, 204, 0);
 strokeWeight(4);
 ```
 
 ## disegniamo qualcosa di "bello"
-```
+```javascript
 function setup() {
   createCanvas(400, 300);
   background(153);
@@ -102,7 +102,7 @@ function draw() {
 
 ## matrici di trasformazione push() pop();
 oltre alle primitive grafiche nel codice sopra abbiamo anche usato le funzioni `pop()`, `push()`, e `translate(x,y)`. Queste ci permettono di cambiare il sistema di coordinate. Quindi ogni cosa disegnata in coordinata (0,0) all'interno una volta chiamata la funziona push() verrà disegnata all'origine del nuovo sistema di coordinate. Nel nostro caso la funzione translate trasla il sistema di coordinate in (width/2-60,height/2-60).
-```
+```javascript
 push();
 stroke(0);
 translate(width/2-60,height/2-60);
@@ -110,3 +110,13 @@ fill(255,100,30);
 triangle(0, 0, 0, 60, 60, 0);
 pop();
 ```
+
+### appunti del giorno 1:
+- [configurare un local server](https://lorenzoromagnoli.github.io/p5js_workshop/giorno1/setup_atom-live-server.html)
+- [parte 1 - setup ](https://lorenzoromagnoli.github.io/p5js_workshop/giorno1/parte1-setup.html)
+- [parte 2 - primitive grafiche](https://lorenzoromagnoli.github.io/p5js_workshop/giorno1/parte2-primitive-grafiche.html)
+- [parte 3 - interazione con mause](https://lorenzoromagnoli.github.io/p5js_workshop/giorno1/parte3-interazioni_col_mouse.html)[
+- [parte 4 - funzioni](https://lorenzoromagnoli.github.io/p5js_workshop/giorno1/parte4-funzioni.html)
+- [parte 5 - interazioni con tastiera](https://lorenzoromagnoli.github.io/p5js_workshop/giorno1/parte5-interazioni-con-tastiera.html)
+- [parte 6 - collision detection](https://lorenzoromagnoli.github.io/p5js_workshop/giorno1/parte6-collision-detection.html)
+- [parte 7 - punteggio](punteggio)

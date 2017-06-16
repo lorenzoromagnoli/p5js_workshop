@@ -4,7 +4,7 @@
 Come abbiamo visto precedentemente p5.js ci mette a disposizione delle variabili che possiamo usare nel nostro sketch al posto di numeri specifici.
 Possiamo ovviamente creare anche delle variabili nostre ed utilizzarle nel programma.
 
-```
+```javascript
 var positionX;
 var positionY;
 
@@ -12,7 +12,7 @@ void setup(){
   //quì il codice di setup
 }
 
-void setup(){
+void draw(){
   //quì il codice di draw
 }
 ```
@@ -23,7 +23,7 @@ Ovviamente le abbiamo già usate ogni volta che abbiamo disegnato qualcosa sullo
 I valori tra parentesi sono delle variabili che dobbiamo passare alla funzione per definire alcune proprietà del rettangolo che vogliamo disegnare.
 ** Come creo una nuova funzione in js? **
 
-```
+```javascript
 function disegnaGino(x,y){
   rect (x-50,y,-50, 100,100)
   ellipse (x-20,y,-20, 20,20)
@@ -37,7 +37,7 @@ Le funzioni vanno scritte al difuori dei blocchi di setup() e draw() in modo da 
 
 Una volta scritta la funziona la posso richiamare da dentro il codice di draw quante volte voglio
 
-```
+```javascript
 void setup(){
 //...
 }
@@ -57,7 +57,7 @@ function disegnaGino(x,y){
 
 posso anche utilizzare le variabili che ho creato prima e definire altr funzioni:
 
-```
+```javascript
 var positionX;
 var positionY;
 
@@ -82,4 +82,14 @@ function aggiornaPosizione(){ //aggiorna le variabili con la posizione del mouse
 }
 ```
 
-Quarda il codice dell'esercizio 4 dove ho creato un po' di funzioni varie e vedi il risultato dello sketch [qui](https://lorenzoromagnoli.github.io/p5js_workshop/giorno1/4_funzioni.html)
+Quarda [il codice dell'esercizio 4](https://github.com/lorenzoromagnoli/p5js_workshop/blob/master/giorno1/4_funzioni/sketch.js) dove ho creato un po' di funzioni varie e vedi il risultato dello sketch [qui](https://lorenzoromagnoli.github.io/p5js_workshop/giorno1/4_funzioni)
+
+### appunti del giorno 1:
+- [configurare un local server](https://lorenzoromagnoli.github.io/p5js_workshop/giorno1/setup_atom-live-server.html)
+- [parte 1 - setup ](https://lorenzoromagnoli.github.io/p5js_workshop/giorno1/parte1-setup.html)
+- [parte 2 - primitive grafiche](https://lorenzoromagnoli.github.io/p5js_workshop/giorno1/parte2-primitive-grafiche.html)
+- [parte 3 - interazione con mause](https://lorenzoromagnoli.github.io/p5js_workshop/giorno1/parte3-interazioni_col_mouse.html)[
+- [parte 4 - funzioni](https://lorenzoromagnoli.github.io/p5js_workshop/giorno1/parte4-funzioni.html)
+- [parte 5 - interazioni con tastiera](https://lorenzoromagnoli.github.io/p5js_workshop/giorno1/parte5-interazioni-con-tastiera.html)
+- [parte 6 - collision detection](https://lorenzoromagnoli.github.io/p5js_workshop/giorno1/parte6-collision-detection.html)
+- [parte 7 - punteggio](punteggio)
