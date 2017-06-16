@@ -14,7 +14,11 @@
   <body>
     <div class="wrapper">
       <header>
-        <a href="https://lorenzoromagnoli.github.io/p5js_workshop/"><h1>{{ site.title | default: site.github.repository_name }}</h1></a>
+        <h1>
+        <a href="https://lorenzoromagnoli.github.io/p5js_workshop/">
+          {{ site.title | default: site.github.repository_name }}
+        </a>
+        </h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_project_page %}
