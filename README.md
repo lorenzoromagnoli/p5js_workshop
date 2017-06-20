@@ -39,3 +39,13 @@
 - [parte 7 - punteggio](https://lorenzoromagnoli.github.io/p5js_workshop/giorno1/parte7_punteggio.html)
 
 [**vedi cosa realizzeremo**](https://lorenzoromagnoli.github.io/p5js_workshop/giorno1/7_punteggio)
+
+# Giorno 2
+  - p5.play
+    - carichiamo la libreria
+  - le sprites
+    - carichiamo gli asset
+    - gestiamo le animazioni
+    - la fisica e la gravita
+  - virtual camera
+    - muoviamo la camera nello spazio
