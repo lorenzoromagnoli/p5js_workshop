@@ -49,3 +49,9 @@
     - la fisica e la gravita
   - virtual camera
     - muoviamo la camera nello spazio
+
+# Giorno 2
+  infinity runner game
+
+# Giorno 4
+  obstacles and collisions
