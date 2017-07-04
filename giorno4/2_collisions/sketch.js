@@ -10,6 +10,9 @@ var obstacles, ground;
 var obstacleImg, groundImg;
 var groundHeight = 40;
 
+var isDead = false;
+
+var gravity=9.8;
 
 function preload() {
   piccioneWalk = loadAnimation("assets/walkL.000.png",
@@ -41,6 +44,8 @@ function setup() {
   piccione.scale = .4
   piccione.addAnimation("walk", piccioneWalk);
   piccione.addAnimation("eat", piccioneEat);
+  piccione.setCollider("circle", 0, 0, 20);
+
   //walk.frameDelay=9;
   piccione.debug = true;
 
@@ -50,7 +55,7 @@ function setup() {
   ground.addImage(groundImg);
 
   obstacles = new Group();
-  obstacles.debug=true;
+  obstacles.debug = true;
 
   camera.position.y = height / 2;
   camera.debug = true;
@@ -58,20 +63,33 @@ function setup() {
 
 function draw() {
 
-  background(247, 134, 131);
-  drawBg();
 
-  updateObstacles();
+  if (!isDead) {
+    background(247, 134, 131);
 
-  camera.position.x = piccione.position.x;
-  controls();
+    drawBg();
+
+    updateObstacles();
+
+    camera.position.x = piccione.position.x;
+    controls();
 
 
-  drawSprite(ground);
-  drawSprite(piccione);
-  drawSprites(obstacles);
+    drawSprite(ground);
+    drawSprite(piccione);
+    drawSprites(obstacles);
 
-  updateGround();
+    updateGround();
+    calcGravity();
+
+    if (piccione.overlap(obstacles)) {
+      die();
+    }
+
+  } else {
+    textSize(32);
+    text("you are dead", 40,40);
+  }
 }
 
 
@@ -80,15 +98,15 @@ function updateObstacles() {
 
   if (frameCount % 60 == 0) {
     console.log("adding pipes");
-    var sasso = createSprite(piccione.position.x + width, height-100);
-    sasso.scale=random(0,1)
+    var sasso = createSprite(piccione.position.x + width, height - 100);
+    sasso.scale = random(0, 1)
     sasso.addImage(obstacleImg);
     obstacles.add(sasso);
   }
 
   //get rid of passed pipes
-  for (var i = 0; i < obstacles.length; i++){
-    if (obstacles[i].position.x < piccione.position.x - width / 2){
+  for (var i = 0; i < obstacles.length; i++) {
+    if (obstacles[i].position.x < piccione.position.x - width / 2) {
       obstacles[i].remove();
     }
   }
@@ -132,9 +150,25 @@ function moveL() {
 
 function keyPressed() {
   if (keyCode == UP_ARROW) {
-    piccione.velocity.x = 0;
-    piccione.changeAnimation("eat");
-    piccione.animation.rewind();
-    piccione.animation.play();
+  //  piccione.velocity.x = 0;
+    piccione.velocity.y = -60;
+
+      }
+}
+
+function die() {
+  isDead = true;
+  console.log("sei morto");
+}
+
+function calcGravity(){
+  if (piccione.position.y<height - 90){
+    piccione.velocity.y+=gravity;
+  }else{
+    piccione.velocity.y=0;
+  }
+
+  if (piccione.position.y>height - 70){
+    piccione.position.y=height - 90;
   }
 }
